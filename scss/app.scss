@@ -1,0 +1,16 @@
+@import 'core';
+
+// Bootstrap
+@import '~bootstrap/scss/utilities';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/grid';
+
+// Base Layout
+@import 'base';
+
+// Components
+@import 'components/sidebar';
+
+// Pages
+@import 'pages/homepage';
