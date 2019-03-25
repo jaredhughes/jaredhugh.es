@@ -1,6 +1,6 @@
+import React, { useState } from 'react'
 import BodyClassName from 'react-body-classname'
 import * as Coordinates from './../lib/coordinates'
-import React, { useState } from 'react'
 
 const LINKS = {
   frontpage: 'https://en.wikipedia.org/wiki/Microsoft_FrontPage',
