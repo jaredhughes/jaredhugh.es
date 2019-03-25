@@ -73,28 +73,30 @@
   }
 
   .mapboxgl-control-container {
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    position: relative;
+    top: 20px;
+
+    .mapboxgl-ctrl-bottom-left {
+      position: relative;
+      top: -12px;
+    }
+
+    a.mapboxgl-ctrl-logo {
+      margin: 0;
+    }
+
+    .mapboxgl-compact {
+      position: relative;
+      top: 20px;
+    }
   }
 
-  .mapboxgl-ctrl {
-    float: none;
-  }
-
-  .mapboxgl-ctrl-bottom-right,
-  .mapboxgl-ctrl-bottom-left {
-    position: static;
-  }
-
-  .mapboxgl-ctrl-bottom-right {
-    order: 1;
-    margin-bottom: 10px;
-  }
-
-  .mapboxgl-ctrl-bottom-left {
-    order: 2;
+  @include media-breakpoint-up(md) {
+    .mapboxgl-control-container {
+      .mapboxgl-ctrl-bottom-left {
+        left: $sidebarWidth;
+      }
+    }
   }
 
   .marker {

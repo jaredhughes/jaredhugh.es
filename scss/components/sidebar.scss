@@ -4,6 +4,7 @@
   padding: 1em;
   position: relative;
   text-align: center;
+  z-index: 1;
 
   @include media-breakpoint-up(md) {
     bottom: 0;

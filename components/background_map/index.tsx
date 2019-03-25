@@ -42,7 +42,7 @@ class BackgroundMap extends React.Component<IProps, {}> {
 
     if (this.map) {
       this.createMarker(this.props.coords)
-      setTimeout(() => this.doFlyTo(this.props.coords), 1000)
+      setTimeout(() => this.doFlyTo(this.props.coords), 2000)
     }
 
     this.setState({
@@ -92,7 +92,7 @@ class BackgroundMap extends React.Component<IProps, {}> {
       offset: calculateOffset(),
       speed: 0.5,
       curve: 0.6,
-      zoom: opts.zoom || 6,
+      zoom: opts.zoom || 4,
     })
   }
 
