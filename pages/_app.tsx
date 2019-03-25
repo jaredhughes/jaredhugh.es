@@ -22,7 +22,10 @@ class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>Jared Hughes | Software Engineer</title>
+          <title>
+            Jared Hughes | Web Applications Architect &amp; Engineer
+          </title>
+          <meta name="description" content="Experienced software engineer with extensive history as lead and architect within agency and product teams" />
         </Head>
 
         <div className='layout'>

@@ -7,7 +7,6 @@ const LINKS = {
   github: 'https://github.com/jaredhughes',
   instagram: 'https://www.instagram.com/jared_hughes/',
   linkedin: 'https://www.linkedin.com/in/-jared-hughes/',
-  lol: 'https://www.legendsoflearning.com',
   polarsteps: 'https://www.polarsteps.com/JaredHughes',
   ry: 'https://www.remoteyear.com',
   y2k: 'https://en.wikipedia.org/wiki/Year_2000_problem',
@@ -23,7 +22,7 @@ const Bio: React.SFC<any> = props => (
   <div className='section'>
     <h2>About</h2>
     <p>
-      My name is Jared Hughes, and I'm originally from a little town in the Deep
+      My name is Jared Hughes, and I'm originally from a small town in the Deep
       American South called{' '}
       <a href='#' onClick={props.onHometownClick}>
         Summerdale, Alabama
@@ -33,11 +32,9 @@ const Bio: React.SFC<any> = props => (
       access to a web directory hosted by my local ISP.
     </p>
     <p>
-      I&#39;m currently working as a Senior Software Engineer on the platform
-      team at {link('Legends of Learning', LINKS.lol)}, where we're building
-      math &amp; science games for primary schoolers. In my spare time, I&#39;m
-      traveling around the world with {link('Remote Year', LINKS.ry)}, living in
-      a different country each month.
+      I&#39;m currently taking a sabbatical to travel around the world with{' '}
+      {link('Remote Year', LINKS.ry)}, living in a different country each month
+      while studying various technologies that interest me.
     </p>
     <p>
       You can find me on {link('GitHub', LINKS.github)},{' '}
