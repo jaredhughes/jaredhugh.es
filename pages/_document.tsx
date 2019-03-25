@@ -1,12 +1,13 @@
 import Document, { Head, Main, NextScript } from 'next/document'
+import GoogleAnalytics from './partials/google_analytics'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
+  public static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }
 
-  render() {
+  public render() {
     return (
       <html>
         <Head>
@@ -33,6 +34,7 @@ class MyDocument extends Document {
           />
           <link rel='manifest' href='/static/site.webmanifest' />
           <meta property='og:image' content='/static/jared-hughes.jpg' />
+          <GoogleAnalytics />
         </Head>
         <body>
           <Main />
