@@ -32,7 +32,8 @@ const Bio: React.SFC<IProps> = ({ setCoords }) => (
   <div className='section bio'>
     <h2>About</h2>
     <p>
-      Hi! I&#39;m Jared, and I'm originally from a small town in Alabama called{' '}
+      Hi! I&#39;m Jared, and I'm originally from a small town in the Deep South
+      called{' '}
       <a href='#' onClick={onHometownClick(setCoords)}>
         Summerdale, Alabama
       </a>

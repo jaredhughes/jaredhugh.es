@@ -1,13 +1,8 @@
 $cv-dot-size: 20px;
 
 .homepage {
-  .map-sibling {
-    position: relative;
-    width: 100%;
-    z-index: 2;
-  }
-
   .section {
+    margin-bottom: 3em;
     padding: 0;
 
     @include media-breakpoint-up(md) {
@@ -17,7 +12,7 @@ $cv-dot-size: 20px;
     h2 {
       font-size: 1.7em;
       font-weight: lighter;
-      margin: 0.6em 0 1.2em;
+      margin: 0.6em 0 1em;
       text-transform: uppercase;
     }
 
@@ -136,10 +131,13 @@ $cv-dot-size: 20px;
 
       a {
         border-bottom: 1px solid $link-color;
-        display: inline-block;
         position: relative;
         transition: all 0.2s;
         top: -1px;
+
+        @include media-breakpoint-up(lg) {
+          display: inline-block;
+        }
 
         &:hover {
           border-color: $white;
@@ -237,6 +235,42 @@ $cv-dot-size: 20px;
       background-color: rgba(white, 0.6);
       border-radius: 15px;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    }
+  }
+}
+
+//
+// SKILLS & INTERESTS SECTION
+//
+.skills-interests {
+  h4 {
+    font-family: $font-family-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 0 1em;
+    letter-spacing: 0.1em;
+  }
+
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+
+    li {
+      background: rgba($white, 0.9);
+      border-radius: 3px;
+      color: $primary;
+      font-size: 0.9em;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0 0.5em 0.7em;
+      padding: 0.4em 0.75em;
+
+      a {
+        color: $primary;
+      }
     }
   }
 }

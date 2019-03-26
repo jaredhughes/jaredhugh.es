@@ -78,7 +78,7 @@
     font-style: italic;
     font-size: 0.9em;
     letter-spacing: 0.05em;
-    line-height: 1.9;
+    line-height: 1.5;
     margin: 0 auto 0.5em;
     opacity: 0.7;
     position: relative;
@@ -99,11 +99,11 @@
       }
 
       &::before {
-        margin: -5px 0 0;
+        margin: -8px 0 0;
       }
 
       &::after {
-        margin: 5px 0 0;
+        margin: 8px 0 0;
       }
     }
   }

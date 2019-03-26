@@ -30,7 +30,7 @@ const WORK_HISTORY: Position[] = [
   {
     company: 'Blue State Digital',
     website: 'https://www.bluestatedigital.com',
-    title: 'Senior Front-End Developer',
+    title: 'Senior Web Developer',
     startDate: 'Dec 2013',
     endDate: 'Feb 2016',
     location: 'Washington, DC',

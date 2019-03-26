@@ -35,7 +35,10 @@ export const Sidebar = () => (
       <figure className='photo d-none d-md-block'>
         <img src={PHOTO_PATH} alt='Photo of Jared Hughes, Software Engineer' />
       </figure>
-      <p className='title'>Web Applications Engineer</p>
+      <p className='title'>
+        Web Applications Architect
+        <br /> &amp; Software Engineer
+      </p>
     </div>
 
     {/* <hr />
