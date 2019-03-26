@@ -1,5 +1,5 @@
-import * as React from 'react'
 import Link from 'next/link'
+import * as React from 'react'
 
 const NAV_ITEMS = [
   {
@@ -25,7 +25,7 @@ const NAV_ITEMS = [
 ]
 
 const REPO_URL = 'https://github.com/jaredhughes/jaredhugh.es'
-const PHOTO_PATH = '/static/images/jared-hughes.jpg'
+const PHOTO_PATH = '/images/jared-hughes.jpg'
 
 export const Sidebar = () => (
   <div className='sidebar'>

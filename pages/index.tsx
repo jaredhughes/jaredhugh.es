@@ -71,12 +71,12 @@ const HomePage: React.SFC<{}> = () => {
 
   return (
     <BodyClassName className='homepage'>
-      <React.Fragment>
+      <>
         <div className='content'>
           <Bio onHometownClick={onHometownClick(setCoords)} />
         </div>
         <MaybeRenderMap coords={coords} />
-      </React.Fragment>
+      </>
     </BodyClassName>
   )
 }
