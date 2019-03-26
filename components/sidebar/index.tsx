@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import * as React from 'react'
+import Breakpoint from 'react-socks'
+import Footer from './../footer'
 
 const NAV_ITEMS = [
   {
@@ -24,7 +26,6 @@ const NAV_ITEMS = [
   },
 ]
 
-const REPO_URL = 'https://github.com/jaredhughes/jaredhugh.es'
 const PHOTO_PATH = '/images/jared-hughes.jpg'
 
 export const Sidebar = () => (
@@ -46,21 +47,9 @@ export const Sidebar = () => (
       ))}
     </nav> */}
 
-    <div className='footer d-none d-md-block'>
-      <p className='copyright'>
-        &copy; {new Date().getFullYear()} Jared Hughes
-      </p>
-      <p className='view-source'>
-        Built using{' '}
-        <a href='https://nextjs.org/' target='_blank'>
-          Next.js
-        </a>
-        . <br />
-        <a href={REPO_URL} target='_blank'>
-          View source on GitHub
-        </a>
-      </p>
-    </div>
+    <Breakpoint medium up>
+      <Footer />
+    </Breakpoint>
   </div>
 )
 
