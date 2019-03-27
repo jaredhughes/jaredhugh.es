@@ -67,7 +67,7 @@ export const skills = [
     url: 'https://www.docker.com/',
   },
   {
-    label: 'Continuous Integration & Deployment',
+    label: 'CI/CD',
   },
   {
     label: 'Unit & Integration Testing',

@@ -258,6 +258,8 @@ $cv-dot-size: 20px;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
 
     li {
       background: rgba($white, 0.9);
