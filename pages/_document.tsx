@@ -11,7 +11,7 @@ class MyDocument extends Document {
 
   public render() {
     return (
-      <html>
+      <html lang='en'>
         <Head>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <link rel='manifest' href='/site.webmanifest' />
