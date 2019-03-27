@@ -32,7 +32,7 @@ export const Sidebar = () => (
   <div className='sidebar'>
     <div className='top'>
       <p className='name'>Jared Hughes</p>
-      <figure className='photo d-none d-md-block'>
+      <figure className='photo'>
         <img src={PHOTO_PATH} alt='Photo of Jared Hughes, Software Engineer' />
       </figure>
       <p className='title'>

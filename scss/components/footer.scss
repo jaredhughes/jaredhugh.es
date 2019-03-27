@@ -1,0 +1,21 @@
+.footer {
+  p {
+    color: rgba($white, 0.6);
+    font-size: 0.8em;
+    line-height: 2em;
+    margin: 0 0 0.5em;
+
+    a {
+      border-bottom: 1px solid rgba($link-color, 0.6);
+      color: rgba($link-color, 0.6);
+      margin: 0 0.3em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+
+      &:hover {
+        border-color: $white;
+        color: $white;
+      }
+    }
+  }
+}

@@ -4,14 +4,16 @@
 //
 
 type Cities =
-  | 'buenosaires'
   | 'bogota'
-  | 'lapaz'
-  | 'lima'
   | 'london'
   | 'medellin'
   | 'summerdale'
-  | 'patagonia'
+  | 'dc'
+  | 'sanandres'
+  | 'santamarta'
+  | 'cartagena'
+  | 'cdmx'
+  | 'cabo'
 
 export interface ICoord {
   lat: number
@@ -21,21 +23,9 @@ export interface ICoord {
 export type ICoordinates = { [key in Cities]: ICoord }
 
 export const coordinates: ICoordinates = {
-  buenosaires: {
-    lat: -34.603,
-    lng: -58.381,
-  },
   bogota: {
     lat: 4.711,
     lng: -74.072,
-  },
-  lapaz: {
-    lat: -16.489,
-    lng: -68.119,
-  },
-  lima: {
-    lat: -12.046,
-    lng: -77.042,
   },
   london: {
     lat: 51.489,
@@ -49,9 +39,29 @@ export const coordinates: ICoordinates = {
     lat: 30.4877,
     lng: -87.6997,
   },
-  patagonia: {
-    lat: -50.338,
-    lng: -72.264,
+  dc: {
+    lat: 38.9,
+    lng: -77.03,
+  },
+  sanandres: {
+    lat: 12.57,
+    lng: -81.7,
+  },
+  santamarta: {
+    lat: 11.24,
+    lng: -74.21,
+  },
+  cartagena: {
+    lat: 10.39,
+    lng: -75.48,
+  },
+  cdmx: {
+    lat: 19.43,
+    lng: -99.13,
+  },
+  cabo: {
+    lat: 22.89,
+    lng: -109.91,
   },
 }
 
