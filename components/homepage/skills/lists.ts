@@ -20,6 +20,9 @@ export const skills = [
     url: 'https://www.postgresql.org/',
   },
   {
+    label: 'SQL',
+  },
+  {
     label: 'Elm',
     url: 'https://elm-lang.org/',
   },
@@ -48,7 +51,7 @@ export const skills = [
     url: 'https://graphql.org/',
   },
   {
-    label: 'REST',
+    label: 'RESTful Design',
   },
   {
     label: 'webpack',
@@ -96,11 +99,15 @@ export const skills = [
 ]
 
 export const interests = [
-  'Travel',
-  'Scuba Diving',
-  'CrossFit',
-  'Surfing',
-  'Outdoors',
-  'BBQ',
-  'Music History',
+  '✈️Travel',
+  '🐠Scuba Diving',
+  '🏋🏼‍♂️CrossFit',
+  '🚴🏼‍♂️Cycling',
+  '🏄🏼‍♂️ Surfing',
+  '🛶 Kayaking',
+  '🌳 Outdoors',
+  '🐘Alabama Football 🏈',
+  '🐷 BBQ',
+  '🌴 Jimmy Buffett',
+  '🎸 Music History',
 ]

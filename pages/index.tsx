@@ -12,9 +12,13 @@ interface IProps {
 const HomePage: React.SFC<IProps> = ({ updateCoords }) => (
   <BodyClassName className='homepage'>
     <div className='container'>
-      <Bio setCoords={updateCoords} />
-      <Skills />
-      <Experience />
+      <div className='row'>
+        <div className='col-12 col-lg-10 offset-lg-1'>
+          <Bio updateCoords={updateCoords} />
+          <Skills />
+          <Experience />
+        </div>
+      </div>
     </div>
   </BodyClassName>
 )

@@ -5,7 +5,7 @@ const Footer: React.SFC<{}> = () => (
   <footer className='footer'>
     <p className='copyright'>&copy; {new Date().getFullYear()} Jared Hughes</p>
     <p className='view-source'>
-      Built using{' '}
+      Hand-crafted with{' '}
       <a href='https://nextjs.org/' target='_blank'>
         Next.js
       </a>

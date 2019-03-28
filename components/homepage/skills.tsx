@@ -12,7 +12,9 @@ const maybeLink = (label: string, url: string | undefined) =>
 
 const Skills: React.SFC<{}> = () => (
   <div className='section skills-interests'>
-    <h2>Skills &amp; Interests</h2>
+    <h2>
+      <span>Skills &amp; Interests</span>
+    </h2>
 
     <h4>Skills</h4>
     <ul className='tag-list'>

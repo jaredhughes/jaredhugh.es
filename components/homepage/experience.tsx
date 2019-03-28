@@ -61,7 +61,9 @@ const WORK_HISTORY: Position[] = [
 
 const Experience: React.SFC<{}> = () => (
   <div className='section experience'>
-    <h2>Experience</h2>
+    <h2>
+      <span>Experience</span>
+    </h2>
     <ol className='work-history'>
       {WORK_HISTORY.map((job, index) => (
         <li
@@ -104,6 +106,13 @@ const Experience: React.SFC<{}> = () => (
         </li>
       ))}
     </ol>
+    <p className='resume-request'>
+      Complete resume available{' '}
+      <a href='mailto:j@redhugh.es?subject=I&#39;d like to work with you'>
+        upon request
+      </a>
+      .
+    </p>
   </div>
 )
 
