@@ -1,8 +1,8 @@
-import * as Coordinates from 'lib/coordinates'
+import * as Coordinates from '@lib/coordinates'
+import { setAccessToken } from '@lib/mapbox'
 import debounce from 'lodash.debounce'
 import * as MapboxGL from 'mapbox-gl'
 import * as React from 'react'
-import { setAccessToken } from '../../lib/utils/mapbox'
 
 import 'mapbox-gl/dist/mapbox-gl.css'
 

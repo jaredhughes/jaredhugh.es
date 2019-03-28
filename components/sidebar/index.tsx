@@ -1,30 +1,30 @@
-import Link from 'next/link'
+import Footer from '@components/footer'
+// import Link from 'next/link'
 import * as React from 'react'
 import Breakpoint from 'react-socks'
-import Footer from './../footer'
 
-const NAV_ITEMS = [
-  {
-    to: '/',
-    label: 'Home',
-  },
-  {
-    to: '/travels',
-    label: 'Travels',
-  },
-  {
-    to: '/blog',
-    label: 'Blog',
-  },
-  {
-    to: '/portfolio',
-    label: 'Portfolio',
-  },
-  {
-    to: '/contact',
-    label: 'Contact',
-  },
-]
+// const NAV_ITEMS = [
+//   {
+//     to: '/',
+//     label: 'Home',
+//   },
+//   {
+//     to: '/travels',
+//     label: 'Travels',
+//   },
+//   {
+//     to: '/blog',
+//     label: 'Blog',
+//   },
+//   {
+//     to: '/portfolio',
+//     label: 'Portfolio',
+//   },
+//   {
+//     to: '/contact',
+//     label: 'Contact',
+//   },
+// ]
 
 const PHOTO_PATH = '/images/jared-hughes.jpg'
 

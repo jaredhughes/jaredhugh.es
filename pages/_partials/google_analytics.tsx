@@ -1,5 +1,5 @@
+import * as constants from '@lib/constants'
 import React from 'react'
-import { constants } from '../../lib/utils'
 
 const createInlineJs = () => ({
   __html: `

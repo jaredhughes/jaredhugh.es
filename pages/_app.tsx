@@ -1,10 +1,10 @@
+import Footer from '@components/footer'
+import Sidebar from '@components/sidebar'
+import * as Coordinates from '@lib/coordinates'
 import App, { AppProps, Container, DefaultAppIProps } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
 import Breakpoint, { BreakpointProvider } from 'react-socks'
-import Footer from './../components/footer'
-import Sidebar from './../components/sidebar'
-import * as Coordinates from './../lib/coordinates'
 
 import './../scss/app.scss'
 
@@ -17,7 +17,7 @@ const MaybeRenderMap = ({ coords }: { coords: Coordinates.ICoord }) => {
   const render = isBrowser && showForRoute
 
   if (render) {
-    const Map = require('../components/background_map/index').default
+    const Map = require('@components/background_map/index').default
 
     return (
       <div className='background-map'>

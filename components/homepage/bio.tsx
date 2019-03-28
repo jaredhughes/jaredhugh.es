@@ -1,5 +1,5 @@
+import * as Coordinates from '@lib/coordinates'
 import React from 'react'
-import * as Coordinates from './../../lib/coordinates'
 
 const LINKS = {
   frontpage: 'https://en.wikipedia.org/wiki/Microsoft_FrontPage',
